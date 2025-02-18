@@ -20,7 +20,7 @@ sleep_time = int(input("Kitna time baad app ko open karna hai (in seconds): "))
 # Loop chalana aur app open karna
 for i in range(start_index, end_index + 1):
     try:
-        package_name = package_names[i-1]
+        package_name = package_names[i]
         print(f"Opening app with package name: {package_name}")
         
         # App ko open karna
